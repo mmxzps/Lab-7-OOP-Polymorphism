@@ -4,6 +4,7 @@
     {
         static void Main(string[] args)
         {
+            //created objects of the classes and printing out the methods for calculation.
             Geometri cirkel1 = new Cirkel();
             Console.WriteLine($"Arean Cirkel: {cirkel1.Area():F2}");
             Console.WriteLine();
